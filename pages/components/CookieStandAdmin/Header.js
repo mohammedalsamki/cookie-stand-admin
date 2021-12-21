@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Overview from './Overview'
+import Overview from '../../Overview'
 
 const header = () => {
   return (
@@ -8,7 +8,7 @@ const header = () => {
       style={{ backgroundColor: '#15B981' }}
     >
       <p className='text-3xl'>Cookie Stand Admin</p>
-      <Link href='CookieStandAdmin/Overview'>
+      <Link href='Overview'>
         <a className='p-1 bg-gray-200 rounded-md'>{Overview} Overview</a>
       </Link>
     </header>

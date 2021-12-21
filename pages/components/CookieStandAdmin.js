@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import CreateForm from './CookieStandAdmin/CreateForm';
 import Footer from './CookieStandAdmin/Footer';
 import Header from './CookieStandAdmin/Header';
-import Overview from './CookieStandAdmin/Overview';
+import Overview from '../Overview';
 import ReportTable from './CookieStandAdmin/report/ReportTable';
 
 const CookieStandAdmin = () => {
